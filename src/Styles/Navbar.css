@@ -1,0 +1,66 @@
+/* Navbar.css */
+body {
+  margin: 30px; /* Reset default body margin */
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  /* width: 50px;
+  height: auto; */
+  /* position: absolute; */
+/* width: 58px; */
+/* height: 83px; */
+left: 125px;
+top: 45px;
+}
+
+.tagline {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.nav-tabs {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-tab {
+  margin-right: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.nav-tab:hover {
+  text-decoration: underline;
+}
+
+.title{
+  font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    position: relative;
+    z-index: 1; /* Keep the text above the pseudo-element */
+    padding-top: 20px;
+  }
+
+.subtitle{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: small;
+
+}
+
+.nav-link-text:hover {
+  background-image: linear-gradient(to right, #002654, #FFFFFF,  #ED2939);
+  color: transparent; /* Hide the original text color to show the gradient background */
+  -webkit-background-clip: text; /* Clip the gradient to the text content */
+  background-clip: text;}
